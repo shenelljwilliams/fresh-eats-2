@@ -4,24 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>CSS Animations</title>
-	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
+  <title>CSS Animations</title>
+  <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Kodchasan" rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"> -->
     <link rel="stylesheet" type="text/css" href="app.scss" >
 </head>
 <body>
-  <div class="header">
+  <header>
+      <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">How it works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plan">Choose a plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">View our menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#login">
+            <!--tabindex="-1" aria-disabled="true">-->Login/Sign up</a>
+          </li>
+        </ul>
     <img src="assets/media/logo/fresh-eats-logo-resize.png" alt="logo" >
-    <h1>How It Works</h1>
-    <h2>Choose a plan</h2>
-    <h3>View our menu</h3>
-    <h4>Login/sign up</h4>
-    <img src="assets/media/food-1.jpg" alt="food" width="250" height="200">
+    <p>é um texto modelo da indústria tipográfica e de impressão.<br> 
+      O Lorem Ipsum tem vindo a ser o texto padrão usado por estas<br>
+       indústrias desde o ano de 1500, quando uma misturou os caracteres<br>
+        de um texto para criar </p>
+    <img src="assets/media/food-1.jpg" alt="food" width="max" height="200">
+  </header>
+  <main>
+    <h2 id="plan">Choose a plan</h2> 
+    <img src="assets/media/food-6.jpg" alt="food" width="250" height="200">
     <img src="assets/media/food-2.jpg" alt="food" width="250" height="200">
     <img src="assets/media/food-3.jpg" alt="food" width="250" height="200">
     <img src="assets/media/food-4.jpg" alt="food" width="250" height="200">
     <img src="assets/media/food-5.jpg" alt="food" width="250" height="200">
-    <img src="assets/media/food-6.jpg" alt="food" width="250" height="200">
-  </div>   
+   </main> 
+   <summary>
+     <h3 id="menu">View our menu</h3>
+     <p class="p2" >é um texto modelo da indústria tipográfica e de impressão.<br> 
+      O Lorem Ipsum tem vindo a ser o texto padrão usado por estas<br>
+       indústrias desde o ano de 1500, quando uma misturou os caracteres<br>
+        de um texto para criar</p>
+   </summary>
+   <footer>
+     <h4 id= "login">Login/sign-up</h4>
+     <ul>
+      <li>Contact Us</li>
+      <li>Careers</li>
+      <li>Privacy</li>
+      <li>Terms</li>
+    </ul>  
+   </footer>
   </body>
 </html>

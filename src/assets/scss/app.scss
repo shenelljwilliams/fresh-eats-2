@@ -1,4 +1,27 @@
-body {
+header {
     background: #a1dae3 url("../media/webpacklogo.png") repeat;
-    background: #dac3dd;
+    background: #b68fbc;
+}
+
+main {
+    background: #ffd0c2;
+    height: 400px;
+}
+
+summary {
+    background: #b68fbc;
+    height: 400px;
+}
+
+footer {
+    background: #ffd0c2;
+    height: 20%;
+}
+
+p {
+    font-family: "Sofia", cursive;
+}
+
+.p2 {
+    font-family: 'Kodchasan', sans-serif;
 }
