@@ -1,3 +1,1 @@
-Updated fresh-eats page.
-# fresh-eats-2
-# fresh-eats-2
+A one page website with a custome color pallet and typography.
